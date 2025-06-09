@@ -11,3 +11,5 @@ plugins:
   - remote: buf.build/community/scalapb-scala:v0.11.17
     out: gen
     include_imports: true
+    # https://scalapb.github.io/docs/scalapbc/#passing-generator-parameters
+    # opt: flat_package
